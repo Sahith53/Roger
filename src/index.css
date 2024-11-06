@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #868685; */
+    background-color: #000;
+    /* overflow: hidden; */
+    /* //bitch make it border-top-left-radius; */
+}
+
+.glassbg {
+    /* background-image: url('https://wallpaperaccess.com/full/1605833.jpg'); */
+    background-image: url('/sung.jpg');
+    /* background-image: url('https://live.staticflickr.com/7513/16053492076_14589e8be8_b.jpg'); */
+    /* background-image: url('https://cdni.pornpics.de/1280/7/572/84419224/84419224_013_f485.jpg'); */
+    opacity: 40%;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* Ensure it's behind all other content */
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar:hover {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #6e6e6e;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    cursor: pointer;
+}
+
+
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.unmovable {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}

@@ -1,2 +1,5 @@
-# Roger
-Roger , watch the movies for free.
+<<<<<<< HEAD
+Your local changes
+=======
+Remote changes
+>>>>>>> [other-branch-or-commit]
